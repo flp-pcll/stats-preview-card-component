@@ -71,6 +71,7 @@ main .card .card__item {
 }
 .text__area .text__area--title {
   font-size: 2.2rem;
+  font-weight: 700;
 }
 .text__area .text__area--title .highlight {
   color: #aa5cdb;
@@ -87,6 +88,17 @@ main .card .card__item {
   justify-content: space-between;
   text-align: center;
   margin-right: 3rem;
+}
+.text__area .text__area--stats .stats__item .info__stat-number {
+  text-align: left;
+  font-size: 1.4rem;
+}
+.text__area .text__area--stats .stats__item .info__stat-name {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
 }
 
 /*Img Area Layout*/

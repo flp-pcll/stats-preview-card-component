@@ -75,6 +75,7 @@ main {
 
     .text__area--title {
         font-size: 2.2rem;
+        font-weight: 700;
 
         .highlight {
             color: $soft-violet;
@@ -94,6 +95,20 @@ main {
         justify-content: space-between;
         text-align: center;
         margin-right: 3rem;
+
+        .stats__item {
+            .info__stat-number {
+                text-align: left;
+                font-size: 1.4rem;
+            }
+            .info__stat-name {
+                text-transform: uppercase;
+                font-size: .8rem;
+                letter-spacing: .1rem;
+                color: $stats-heading-white;
+                font-family: 'Lexend Deca', sans-serif;
+            }
+        }
     }
 }
 
