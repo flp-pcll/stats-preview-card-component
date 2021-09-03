@@ -133,23 +133,29 @@ main {
 
 
 
-@media screen and (max-width: 1038px) {
-    .text__area {
-        padding: 2rem;
-    }
+@media screen and (max-width: 1160px) {
+    main {max-width: 90%;}
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1037px) {
     .text__area {
+        padding: 2rem 2rem;
         .text__area--title {
             font-size: 2rem;
+        }
+        .text__area--description {
+            margin-right: 0;
+        }
+        .text__area--stats {
+            margin-right: 0;
         }
     }
 }
 
+
 @media screen and (max-width: 850px) {
-    body { margin: 4rem 0;}
-    
+    body { margin: 4rem 2rem;}
+
     main {
         .card {
             flex-direction: column-reverse;
