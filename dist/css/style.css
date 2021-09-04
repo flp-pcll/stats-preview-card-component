@@ -193,6 +193,26 @@ main .card .card__item {
 @media (min-width: 1281px) {
   main {
     margin: 10rem;
+    padding: 0;
+  }
+  main .card .text__area {
+    padding: 12rem;
+    margin-right: 3rem;
+  }
+  main .card .text__area .text__area--title {
+    font-size: 7rem;
+  }
+  main .card .text__area .text__area--description {
+    font-size: 3.5rem;
+  }
+  main .card .text__area .text__area--stats {
+    font-size: 4rem;
+  }
+  main .card .text__area .text__area--stats .stats__item .info__stat-name {
+    font-size: 3rem;
+  }
+  main .card .text__area .text__area--stats .stats__item .info__stat-number {
+    font-size: 4rem;
   }
 }
 

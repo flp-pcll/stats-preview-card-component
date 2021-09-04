@@ -224,6 +224,31 @@ main {
 @media (min-width: 1281px) {
     main {
         margin: 10rem;
+        padding: 0;
+
+        .card {
+            .text__area {
+                padding: 12rem;
+                margin-right: 3rem;
+                .text__area--title {
+                    font-size: 7rem;
+                }
+                .text__area--description {
+                    font-size: 3.5rem;
+                }
+                .text__area--stats {
+                    font-size: 4rem;
+                    .stats__item {
+                        .info__stat-name {
+                            font-size: 3rem;
+                        }
+                        .info__stat-number {
+                            font-size: 4rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
