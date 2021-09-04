@@ -116,7 +116,7 @@ main .card .card__item {
   opacity: 0.9;
 }
 
-@media screen and (max-width: 1080px) {
+@media (max-width: 1080px) {
   main {
     margin: 1rem;
   }
@@ -128,12 +128,12 @@ main .card .card__item {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   .text__area {
     padding: 2rem;
   }
 }
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
   main {
     margin: 3rem 4rem;
     padding: 0 6rem;
@@ -166,11 +166,8 @@ main .card .card__item {
   main .card .text__area .text__area--stats .stats__item .info__stat-number {
     text-align: center;
   }
-  main .card .img__area {
-    flex-basis: 60%;
-  }
 }
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   main {
     margin: 2rem;
     padding: 2rem;
@@ -181,15 +178,16 @@ main .card .card__item {
     margin: 0;
     padding: 1rem;
   }
-
-  .card .text__area {
-    padding: 0;
+  main .card .text__area {
+    padding: 2rem 1rem;
+    margin: 0;
   }
-  .card .text__area .text__area--title {
-    font-size: 0.1rem;
+  main .card .text__area .text__area--title {
+    display: block;
+    font-size: 2rem;
   }
-  .card .text__area .text__area--description {
-    font-size: 1.2rem;
+  main .card .text__area .text__area--description {
+    font-size: 1rem;
   }
 }
 
