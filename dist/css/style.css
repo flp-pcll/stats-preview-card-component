@@ -191,8 +191,8 @@ main .card .card__item {
   }
 }
 @media (min-width: 1281px) {
-  .main {
-    width: 70%;
+  main {
+    margin: 10rem;
   }
 }
 
