@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
+img {
+  width: 100%;
+}
+
 html {
   font-family: "Inter";
   font-size: 15px;
@@ -107,7 +111,6 @@ main .card .card__item {
 }
 .img__area img {
   object-fit: cover;
-  width: 100%;
   height: 100%;
   mix-blend-mode: multiply;
   opacity: 0.9;
