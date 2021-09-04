@@ -123,6 +123,7 @@ main {
     background-color: $soft-violet;
 
     img {
+        display: block;
         object-fit: cover;
         height: 100%;
         mix-blend-mode: multiply;
