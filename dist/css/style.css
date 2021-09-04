@@ -190,5 +190,10 @@ main .card .card__item {
     font-size: 1rem;
   }
 }
+@media (min-width: 1281px) {
+  .main {
+    width: 70%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
