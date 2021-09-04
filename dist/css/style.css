@@ -135,9 +135,8 @@ main .card .card__item {
     flex-direction: column-reverse;
   }
   main .card .text__area {
-    flex-basis: 40%;
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
   }
   main .card .text__area .text__area--title {
     font-size: 2.2rem;
@@ -170,10 +169,20 @@ main .card .card__item {
     padding: 2rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   main {
-    margin: 1rem;
+    margin: 0;
     padding: 1rem;
+  }
+
+  .card .text__area {
+    padding: 0;
+  }
+  .card .text__area .text__area--title {
+    font-size: 0.1rem;
+  }
+  .card .text__area .text__area--description {
+    font-size: 1.2rem;
   }
 }
 
