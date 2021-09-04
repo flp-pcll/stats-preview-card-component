@@ -103,7 +103,6 @@ main .card .card__item {
 
 /*Img Area Layout*/
 .img__area {
-  object-fit: cover;
   background-color: #aa5cdb;
 }
 .img__area img {
